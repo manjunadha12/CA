@@ -1,11 +1,4 @@
-LHLD 2050
-XCHG
-LHLD 2052
-MVIC,00
-MOV A,E
-SUB C
-STA 2054
-MOV A,D
-SUB H
-STA 2055
-HLT
+mov cx,0000
+mov ax,3600h
+mov bx,3000h
+sub ax,bx
