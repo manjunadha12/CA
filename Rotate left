@@ -1,0 +1,7 @@
+miv a,02
+rlc
+rlc
+rlc
+rlc
+sta 2000
+hlt
