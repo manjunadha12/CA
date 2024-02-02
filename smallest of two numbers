@@ -1,0 +1,7 @@
+lda 8050
+mov b,a
+lda 8051
+cmp b
+jnc store
+store : mov a,b
+hlt
