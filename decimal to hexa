@@ -1,0 +1,12 @@
+lxi h,2050
+mov a,m
+add a
+mov b,a
+add a
+add a
+add b
+inx h
+add m
+inx h
+mov m,a
+hlt
